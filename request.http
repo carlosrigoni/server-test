@@ -1,6 +1,6 @@
-POST http://localhost:4000
-HeaderTest: TextHeader
+POST https://server-test-two.vercel.app/
 content-type: application/json
+HeaderTest: TextHeader
 
 {
     "bodytest": "textbbody"

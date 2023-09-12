@@ -10,6 +10,10 @@ app.use(cors());
 // Middleware para fazer o parsing do corpo da requisição como JSON
 app.use(bodyParser.json());
 
+app.get('/', (req, res) => {
+  res.send('running');
+});
+
 // Rota POST
 app.post('/', (req, res) => {
   // Obter o corpo da requisição
